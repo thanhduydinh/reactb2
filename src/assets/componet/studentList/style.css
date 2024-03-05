@@ -1,0 +1,103 @@
+.wrapper {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ecf0f5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-top: 30px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.wrapper table {
+  font-family: arial, sans-serif;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-spacing: 0;
+  text-align: left;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.wrapper tbody tr {
+  border-right-width: 0;
+  border-left-width: 0;
+  border-radius: 1px;
+}
+.wrapper tbody td {
+  width: 25%;
+  border-bottom-width: 0;
+  font-size: 0.8rem;
+  color: black;
+}
+.wrapper td,
+.wrapper th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.wrapper th {
+  width: 20%;
+}
+.wrapper .icon {
+  display: flex;
+}
+.wrapper .icon .fa-pen {
+  font-size: 1rem;
+  font-size: 1rem;
+  padding: 10px;
+}
+.wrapper .icon .fa-trash {
+  font-size: 1rem;
+  font-size: 1rem;
+  padding: 10px;
+}
+.wrapper .icon .fa-pen:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+.wrapper .icon .fa-trash:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+.wrapper .navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 12px 20px 12px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.wrapper .navigation p {
+  font-size: 0.8rem;
+}
+.wrapper .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.wrapper .navigation ul li {
+  margin-left: 0;
+  border: 1px solid #ddd;
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+.wrapper .navigation ul li:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.wrapper .navigation ul li:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.wrapper .navigation ul li:nth-child(2) {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
